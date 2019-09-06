@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="boat1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boat2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boat3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boat4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boat5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boat6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boyroad.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boysafe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boywater.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car1r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car2r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car3r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car4r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car5r.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="car7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="field.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="smurf.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boystart.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hi1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hi2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hi3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boywhite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="life.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="score.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="about us.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="exit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="help.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="scores.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="play.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="games.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pause.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="how to play.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aboutus.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="about us press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="play press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="scores press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="help press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resume.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gameover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bw1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bw2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bw3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bw4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bw5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="home.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="naheedsir.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="naheedsir5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="naheedsir4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="naheedsir3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="naheedsir2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Back to Home Safely.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLUT.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUT32.DLL">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GLUT32.LIB">
+      <Filter>Source Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="typewriter_click.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="gameover.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="lalala.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="ouch.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="shish1.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="shish2.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="walk.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="yahoo.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="youwin.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="letsstart.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="bgm3.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="bgm2.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="bgm1.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="level1.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="level2.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="level3.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="level4.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="level5.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

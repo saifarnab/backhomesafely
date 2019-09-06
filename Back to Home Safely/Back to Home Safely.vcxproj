@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="about us press.bmp" />
+    <Image Include="about us.bmp" />
+    <Image Include="aboutus.bmp" />
+    <Image Include="boat1.bmp" />
+    <Image Include="boat2.bmp" />
+    <Image Include="boat3.bmp" />
+    <Image Include="boat4.bmp" />
+    <Image Include="boat5.bmp" />
+    <Image Include="boat6.bmp" />
+    <Image Include="boystart.bmp" />
+    <Image Include="boyroad.bmp" />
+    <Image Include="boysafe.bmp" />
+    <Image Include="boywater.bmp" />
+    <Image Include="boywhite.bmp" />
+    <Image Include="bw1.bmp" />
+    <Image Include="bw2.bmp" />
+    <Image Include="bw3.bmp" />
+    <Image Include="bw4.bmp" />
+    <Image Include="bw5.bmp" />
+    <Image Include="car1.bmp" />
+    <Image Include="car1r.bmp" />
+    <Image Include="car2.bmp" />
+    <Image Include="car2r.bmp" />
+    <Image Include="car3.bmp" />
+    <Image Include="car3r.bmp" />
+    <Image Include="car4.bmp" />
+    <Image Include="car4r.bmp" />
+    <Image Include="car5.bmp" />
+    <Image Include="car5r.bmp" />
+    <Image Include="car6.bmp" />
+    <Image Include="car7.bmp" />
+    <Image Include="exit.bmp" />
+    <Image Include="field.bmp" />
+    <Image Include="gameover.bmp" />
+    <Image Include="games.bmp" />
+    <Image Include="help press.bmp" />
+    <Image Include="help.bmp" />
+    <Image Include="hi1.bmp" />
+    <Image Include="hi2.bmp" />
+    <Image Include="hi3.bmp" />
+    <Image Include="home.bmp" />
+    <Image Include="how to play.bmp" />
+    <Image Include="life.bmp" />
+    <Image Include="menu.bmp" />
+    <Image Include="naheedsir2.bmp" />
+    <Image Include="naheedsir3.bmp" />
+    <Image Include="naheedsir4.bmp" />
+    <Image Include="naheedsir5.bmp" />
+    <Image Include="naheedsir.bmp" />
+    <Image Include="pause.bmp" />
+    <Image Include="play press.bmp" />
+    <Image Include="play.bmp" />
+    <Image Include="resume.bmp" />
+    <Image Include="score.bmp" />
+    <Image Include="scores press.bmp" />
+    <Image Include="scores.bmp" />
+    <Image Include="smurf.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Back to Home Safely.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLUT.H" />
+    <ClInclude Include="iGraphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUT32.DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GLUT32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgm1.mp3" />
+    <Media Include="bgm2.mp3" />
+    <Media Include="bgm3.mp3" />
+    <Media Include="gameover.mp3" />
+    <Media Include="lalala.mp3" />
+    <Media Include="letsstart.mp3" />
+    <Media Include="level1.mp3" />
+    <Media Include="level2.mp3" />
+    <Media Include="level3.mp3" />
+    <Media Include="level4.mp3" />
+    <Media Include="level5.mp3" />
+    <Media Include="ouch.mp3" />
+    <Media Include="shish1.mp3" />
+    <Media Include="shish2.mp3" />
+    <Media Include="typewriter_click.wav" />
+    <Media Include="walk.mp3" />
+    <Media Include="yahoo.mp3" />
+    <Media Include="youwin.mp3" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5927BC81-4639-4555-9386-05285729BA29}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BacktoHomeSafely</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

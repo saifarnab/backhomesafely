@@ -1,0 +1,20 @@
+Use System32 - Shortcut and paste msvcr120d.dll file(from any of folder 1 or 2) there.
+
+
+
+If that doesn't work, you will have to extract the file to your system directory.
+
+By default, this is C:\Windows\System (Windows 95/98/Me), C:\WINNT\System32 (Windows NT/2000),
+or C:\Windows\System32 (Windows XP, Vista, 7).
+
+Make sure overwrite any existing files (but make a backup copy of the original file).
+
+
+Reboot your computer. 
+If the problem still occurs, try the following:
+
+
+1. Press Start and select Run.
+2. Type CMD and press Enter (or if you use Windows ME, type COMMAND).
+
+3. Type regsvr32 "filename".dll and press Enter.
